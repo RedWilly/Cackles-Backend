@@ -14,7 +14,7 @@ contract Cackles_NFT is ERC721Enumerable, Ownable {
 
     string baseURI;
     string public baseExtension = ".json";
-    uint256 public cost = 0.0053 ether;
+    uint256 public cost = 0.001 ether;
     uint256 public constant maxSupply = 8888;
     uint256 public maxMintAmount = 5;
     bool public paused = false;
